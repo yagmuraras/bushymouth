@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+
+#blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background: url('bg.jpg') no-repeat 100%;
+    background-size: cover;
+    filter: blur(15px);
+    z-index: 1;
+}
+
+#fish-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fish {
+    width: 120px;
+    height: 288px;
+    position: absolute;
+    z-index: 3;
+	transform-origin: top left;
+}
+
+.transition {
+	 transition: transform 1s; 
+}
+
+
+.cleaned {
+    position: absolute;
+    width: 42px; 
+    height: 2px; 
+    background: url('bg.jpg') no-repeat;
+    background-size: 1920px 1080px;
+    z-index: 2; 
+}
