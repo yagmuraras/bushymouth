@@ -3,7 +3,7 @@ const fishWidth = 120;
 const fishHeight = 288;
 const imageWidth = 1920;
 const imageHeight = 1080;
-const speed =  5;   // Vertical one way duration. 15 means it will take 15 seconds
+const speed =  15;   // Vertical one way duration. 15 means it will take 15 seconds
 
 let headWidth= 0.30  * fishWidth;
 let headOffset = (fishWidth-headWidth)/ 2;
